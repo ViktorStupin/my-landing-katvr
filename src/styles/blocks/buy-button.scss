@@ -1,0 +1,21 @@
+.buy-button {
+  cursor: pointer;
+
+  display: block;
+
+  border: none;
+  border-radius: 4px;
+
+  font-size: 14px;
+  color: $color-white;
+  text-align: center;
+
+  background-color: $color-blue;
+
+  @include hover(color, $color-blue);
+  @include hover(background-color, $color-white);
+
+  @include on-tablet {
+    font-size: 16px;
+  }
+}
