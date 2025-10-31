@@ -12,16 +12,17 @@
     width: 280px;
     padding-block: 11px;
 
-    position: fixed;
-    left: 50%;
-    bottom: 215px;
-    transform: translateX(-50%);
+    margin-inline: auto;
+    margin-bottom: 20px;
+    margin-top: -50px;
+
     z-index: 1;
     text-align: center;
 
     @include on-tablet {
       width: 460px;
       padding-block: 13px;
+      margin-left: 100px;
     }
 
     @include on-desktop {
@@ -161,7 +162,6 @@
 
     display: flex;
     justify-content: space-between;
-    padding-block: 84px;
   }
 
   &__list {
